@@ -23,13 +23,13 @@ const projectsData = [
   {
     title: "Portfolio Website",
     image: "/assets/PortfolioBanner.png",
-    tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    tech: ["HTML", "CSS", "JavaScript", "React.js", "Vite"],
     short:
       "Personal portfolio showcasing academic details, skills, and projects.",
     details: [
       "Smooth scrolling",
       "Active navigation highlight",
-      "Sections: Skills, Projects, Certifications, Achievements, Contact",
+      "Sections: Education, Skills, Projects, Certifications, Extracurriculars, Contact",
       "Social media profile integration",
     ],
     github: "https://github.com/Puja4738/My-Portfolio-React",
