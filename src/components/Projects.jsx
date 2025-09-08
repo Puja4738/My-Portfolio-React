@@ -32,8 +32,8 @@ const projectsData = [
       "Sections: Skills, Projects, Certifications, Achievements, Contact",
       "Social media profile integration",
     ],
-    github: "https://github.com/Mayank3847/Portfolio",
-    live: "https://basic-mayank-portfolio.netlify.app/",
+    github: "https://github.com/Puja4738/My-Portfolio-React",
+    live: "https://puja4738-my-portfolio-react.netlify.app/",
   },
   {
     title: "Quiz-App",
