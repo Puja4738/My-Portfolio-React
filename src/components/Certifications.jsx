@@ -7,6 +7,16 @@ import { FaCertificate } from "react-icons/fa";
 // Certification data
 const certificationsData = [
   {
+    title: "Infosys Internship Certification",
+    image: "/assets/Infosys_Certificate.jpg",
+    tech: ["Java", "Spring Boot", "Angular", "REST APIs", "MySQL"],
+    description:
+        "Certification of completion for Java Full Stack Developer Intern by Infosys Ltd., focused on full-stack application development.",
+    details:
+        "Worked on full-stack application development  using Java, Spring Boot, Angular, REST APIs and MySQL, contributing to backend integration, database operations, API testing and responsive UI development in an Agile environment.",
+    link: "https://drive.google.com/file/d/1grWh2aaQpFDPy7eWJnoabwZhpK9kYeKe/view?usp=drivesdk",
+  },
+  {
     title: "Java DSA Certification",
     image: "/assets/DSA Certificate.jpg",
     tech: ["Java", "DSA"],
