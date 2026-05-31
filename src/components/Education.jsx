@@ -8,8 +8,8 @@ const educationData = [
     duration: "October 2023-Present",
     institution: "Galgotias University, Greater Noida",
     details: [
-      "Year: 7th Semester",
-      "Current CGPA: 8.91 / 10",
+      "Year: 8th Semester",
+      "Current CGPA: 8.81 / 10",
       "Relevant Courses: DSA, Java, Web Development",
       "Top Skills: HTML, DSA Using Java"
     ],
