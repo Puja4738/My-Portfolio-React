@@ -6,7 +6,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"; // ✅ Icons
 const projectsData = [
   {
   title: "GigFlow – Freelance Hiring Platform",
-  image: "/assets/Gigflow image.png",
+  image: "/assets/Gigflow image.jpg",
   tech: [
     "React.js",
     "Redux Toolkit",
