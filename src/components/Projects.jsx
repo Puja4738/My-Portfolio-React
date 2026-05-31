@@ -5,6 +5,85 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"; // ✅ Icons
 
 const projectsData = [
   {
+  title: "GigFlow – Freelance Hiring Platform",
+  image: "/assets/Gigflow image.png",
+  tech: [
+    "React.js",
+    "Redux Toolkit",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT Authentication",
+    "Socket.io",
+    "REST API",
+    "Tailwind CSS"
+  ],
+  short:
+    "Full-stack freelance hiring platform where clients post gigs, freelancers bid in real time, and hiring decisions trigger instant notifications.",
+  details: [
+    "User authentication with JWT and HttpOnly cookies",
+    "Role-based system: client (gig owner) and freelancer",
+    "Clients can post gigs with title, description, and budget",
+    "Freelancers can browse gigs and submit bids",
+    "Only gig owners can view bids on their posted gigs",
+    "Atomic hire logic ensures only one freelancer can be hired per gig",
+    "Hire and reject actions update gig and bid status securely",
+    "Real-time notifications using Socket.io for bids, hire, and rejection",
+    "Notification bell with unread count and persistence per user",
+    "Session-safe authentication handling on refresh and redeploy",
+    "Protected routes using custom auth middleware",
+    "Optimistic UI updates for hire/reject actions",
+    "Frontend built with React + Redux Toolkit for state management",
+    "Backend built with Node.js, Express.js, and MongoDB",
+    "Fully responsive UI with clean, production-ready design",
+    "Frontend and backend deployed separately on cloud platforms",
+  ],
+  github: "https://github.com/Puja4738/GigFlow",
+  live: "https://puja4738gigflow-platform.netlify.app/"
+},
+{
+  title: "TaskManager - Collaborative Task Management System",
+  image: "/assets/Task-Manager.jpg",
+  tech: [
+    "React.js",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.io",
+    "JWT Authentication",
+    "Tailwind CSS",
+    "React Query",
+    "Zod Validation"
+  ],
+  short:
+    "Full-stack collaborative task management application with real-time updates where users can create, assign, track tasks, receive instant notifications, and manage team workflows efficiently.",
+  details: [
+    "User registration and login with JWT authentication and HttpOnly cookies",
+    "Complete CRUD operations for tasks with role-based access control",
+    "Real-time task updates using Socket.io WebSocket connections",
+    "Task assignment system with instant in-app notifications",
+    "Advanced filtering by status (To Do, In Progress, Review, Completed) and priority (Low, Medium, High, Urgent)",
+    "Dynamic sorting by due date and creation date",
+    "Personal dashboard with statistics cards showing assigned tasks, created tasks, and overdue tasks",
+    "Only task creators can delete tasks (authorization middleware)",
+    "Persistent notification system with read/unread status tracking",
+    "Backend built with Node.js + Express.js + MongoDB using Service/Repository pattern",
+    "Frontend built with React + TypeScript + Vite with 20+ reusable components",
+    "Form validation using React Hook Form and Zod schemas on both client and server",
+    "Protected routes and API endpoints with custom auth middleware",
+    "Fully responsive UI with Tailwind CSS (mobile to 4K screens)",
+    "Optimistic UI updates and caching with React Query/TanStack Query",
+    "Toast notifications for user feedback and loading skeleton states",
+    "Unit tests with Jest achieving 80%+ code coverage",
+    "MongoDB database with 3 collections (Users, Tasks, Notifications) and proper indexing",
+    "Deployed frontend on Netlify and backend on Render with MongoDB Atlas",
+    "Comprehensive API documentation with 15+ RESTful endpoints"
+  ],
+  github: "https://github.com/Puja4738/Task-Manager",
+  live: "https://puja4738-task-manager-app.netlify.app/login"
+},
+  {
     title: "Weather Web App",
     image: "/assets/weather.png",
     tech: ["React.js", "OpenWeatherMap API", "CSS", "HTML"],
